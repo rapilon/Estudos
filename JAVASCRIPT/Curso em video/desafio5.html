@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+</head>
+<body>
+   <h1>Conversor de Medidas</h1>
+   <input type="button" value="Converter" onclick="clicar()"> 
+   <p id="pa">Clique no botão acima para iniciar</p>
+   <script>
+    let p = document.getElementById('#pa')
+    function clicar() {
+      let x = Number(window.prompt('Digite uma distância em metros(m)'))
+      document
+      let p = (`A distância de ${x} metros, corresponde a...`)
+      window.document.write(`${x*0.001} km`) 
+      window.document.write(`${x*0.01} hm`) 
+      window.document.write(`${x*0.1} dam`) 
+      window.document.write(`${x*1000} dm`) 
+      window.document.write(`${x*1000000}mm`) 
+    }
+   </script>
+</body>
+</html>

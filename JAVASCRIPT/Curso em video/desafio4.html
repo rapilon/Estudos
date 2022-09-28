@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 4</title>
+</head>
+<body>
+    <h1>Calculando o troco</h1>
+    <input type="button" value="Comprar Produto" onclick="clicar()">
+    <script>
+        function clicar(){
+            let x = window.prompt('Qual produto você está comprando ?')
+            let y = Number(window.prompt(`Qaunto custa ${x} que você está comprando ?`))
+            let z = Number(window.prompt(`Qual foi o valor que você deu para pagar ${x} ?`))
+            window.alert(`Você comprou ${x} que custou R$${y.toFixed(2)}. Deu R$${z.toFixed(2)} em dinheiro e vai receber R$${(z-y).toFixed(2)} de troco. Volte Sempre!`)
+        }
+    </script>
+</body>
+</html>

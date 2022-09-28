@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'android';
+    src:  url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'android';
+    font-size: xx-large;
+    color: rgba(50, 184, 50, 0.934);
+}
+h2 {
+    font-family: 'android';
+    background-color: rgba(0, 128, 0, 0.249);
+    display: inline-block;
+    color: rgba(50, 184, 50, 0.934);
+}
+body {
+    background-color: rgba(65, 218, 65, 0.397);
+}
+header {
+    margin: 0px;
+    padding: 55px;
+    border: 20px;
+    text-align: center;
+    background-image: linear-gradient(to top,rgb(110, 193, 121), rgb(157, 198, 157));
+}
+.menu {
+    list-style: none;
+    border: 1px solid #c0c0c0;
+    float: left;
+}
+.menu li {
+    position: relative;
+    float: left;
+    border-right: 1px solid #c0c0c0;
+}
+.menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #fff;
+    display: none;
+}
+section {
+    width: 800px;
+    padding: 1px;
+    margin: auto;
+    background-color: white;
+}
+p {
+    text-indent: 20px;
+}
+picture {
+    text-align: center;
+}
+iframe {
+    text-align: center;
+    margin: auto;
+}
